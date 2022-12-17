@@ -30,5 +30,49 @@ h1 {
 .nav-link {
     color: chocolate;
 }
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
 
-
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  h1 {
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #1f5545;
+	text-align: right;
+  }
+  h2 {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #2f207a;
+  }
+  body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #23613d;
+  }
+  .link {
+	text-decoration: none;
+	color: #829985;
+	transition: color 0.5s;
+  }
+  
+  .link:hover {
+	color: #5d7260;
+  }
+ .futor {}

@@ -75,13 +75,16 @@ body {
     text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
 
 .footer {
-  margin-top: 15em;
-}
+    margin-top: 8em;
+    height: 70px;
+    width: 100%;
+    color: #5d5bd5;
+    display: grid;
+    justify-content: end;
+    padding: 15px 10px 15px 100px;
+  }
 
  @media (max-width: 768px) {
   .section {
